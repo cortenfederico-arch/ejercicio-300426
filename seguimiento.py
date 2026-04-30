@@ -145,4 +145,5 @@ if st.button("📧 Enviar Excel por Correo"):
         if enviar_correo(excel_file):
             st.success(f"Correo enviado con éxito a la empresa/profesora.")
     else:
-        st.warning("No hay datos para enviar."
+        st.warning("No hay datos para enviar.")
+        
